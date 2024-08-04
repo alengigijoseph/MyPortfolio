@@ -1027,7 +1027,19 @@ section,
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 50%;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center; /* Centers the images vertically */
+  justify-content: center; /* Centers the images horizontally if there is extra space */
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio-details .swiper-wrapper {
@@ -1196,11 +1208,4 @@ section,
   font-style: italic;
   margin: 0 0 15px 0 0 0;
   padding: 0;
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
 }
